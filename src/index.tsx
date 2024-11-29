@@ -16,6 +16,7 @@ import { ResourceManage } from './pages/resource'
 import { KnowledgeManage } from './pages/knowledge-manage'
 import { NewsManage } from './pages/news-manage'
 import { KinList } from './pages/kin-list'
+import { Dashboard } from './pages/dashboard'
 import Header from './components/header/header'
 import Footer from './components/footer'
 import './theme.css'
@@ -38,6 +39,7 @@ ReactDOM.render(
                         <Route path="/resource" component={ResourceManage} />
                         <Route path="/knowledge" component={KnowledgeManage} />
                         <Route path="/news" component={NewsManage} />
+                        <Route path="/dashboard" component={Dashboard} />
                     </Switch>
                     <Footer />
                 </Router>
